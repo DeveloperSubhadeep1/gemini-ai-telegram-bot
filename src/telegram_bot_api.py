@@ -15,7 +15,7 @@ app = Flask(__name__)
 
 gemini = Gemini()
 
-telegram_app = ApplicationBuilder().token(getenv('TELEGRAM_BOT_TOKEN')).build()
+telegram_app = ApplicationBuilder().token(getenv('6981118990:AAGXlbfGvD0IDRhwmBCwrnSbb5Psz8qePJ8')).build()
 
 
 @app.get('/')

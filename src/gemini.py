@@ -14,7 +14,7 @@ class Gemini:
     __plugin_manager = PluginManager()
 
     def __init__(self):
-        gen_ai.configure(api_key=getenv('GEMINI_API_KEY',’AIzaSyABoqn9zc5mQAa4w24FKjwCWJztfHd10f4’))
+        gen_ai.configure(api_key=getenv('AIzaSyABoqn9zc5mQAa4w24FKjwCWJztfHd10f4'))
         self.__pro_model = gen_ai.GenerativeModel(
             model_name="gemini-pro",
             generation_config=self.__generation_config

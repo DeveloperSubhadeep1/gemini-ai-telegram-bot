@@ -40,7 +40,7 @@ async def webhook():
             return {
                 "method": "sendMessage",
                 "chat_id": chat_id,
-                "text": 'Welcome!'
+                "text": "Welcome! to Hell King's  A.I ♊"
             }
 
         
